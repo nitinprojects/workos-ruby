@@ -1,6 +1,6 @@
 version: v1.0
 global_job_config:
-  setup
+  setup:
    - checkout
    - neetoci-version ruby 3.0.2
    - neetoci-service start redis 7.0.5
